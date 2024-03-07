@@ -1,4 +1,1 @@
-# Loja_Virtual
-# LojaVirtual
-# Online_shop
-# Online_shop
+Online store for shopping for children's toys 
