@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playtoys</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />  
+    <link rel="stylesheet" href="/style.css">  
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <div class="topo-menu">
+                    <div>
+                        <div class="ola">
+                            <i class="fa-solid fa-right-to-bracket"></i>
+
+                            <h3>Olá, Visitante</h3>
+                        </div>
+                        <button type="button">Login / Sou novo por aqui</button>
+                    </div>
+                    <div class="menu-hamburguer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <hr/>
+                <li>
+                    <a href="#">Sobre a Playtoys</a>
+                </li>
+                <li>
+                    <a href="#">Brinquedos</a>
+                    <ul class="submenu">
+                        <li><a href="#">Novidades</a></li>
+                        <li><a href="#">Criatividade, musica e festa</a></li>
+                        <li><a href="#">Brinquedos para montar</a></li>
+                        <li><a href="#">Bonecas</a></li>
+                        <li><a href="#">Super-heróis</a></li>
+                        <li><a href="#">Outlet</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Moda</a>
+                    <ul class="submenu">
+                        <li><a href="#">Para bebes</a></li>
+                        <li><a href="#">Para meninas</a></li>
+                        <li><a href="#">Para meninos</a></li>
+                        <li><a href="#">Fantasias</a></li>
+                        <li><a href="#">Acessórios</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Para se movimentar</a>
+                    <ul class="submenu">
+                        <li><a href="#">Bicicletas</a></li>
+                        <li><a href="#">Patinetes</a></li>
+                        <li><a href="#">Skate / Patins</a></li>
+                        <li><a href="#">Esportes / bolas </a></li>
+                        <li><a href="#">Acessórios</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Ajuda</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container topo">
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <h1>A loja certa para presentar </h1>
+            <a href="#">
+                <i class="fa-solid fa-cart-plus"></i>
+                </span>
+            </a>
+        </div>
+    </header>
+    <div class="container">
+        <section class="sobre">
+            <img src="./loja-brinquedos.jpg" alt="muitos brinquedos na loja"/>
+            <div>
+                <h2>Sobre a Playtoys</h2>
+                <hr/>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed earum eos nulla adipisci non aliquid nemo ipsam facere, modi corrupti quisquam eum fuga. Alias architecto consectetur modi deleniti placeat ut!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed earum eos nulla adipisci non aliquid nemo ipsam facere, modi corrupti quisquam eum fuga. Alias architecto consectetur modi deleniti placeat ut!</p>
+            </div>    
+        </section>
+        <section class="produtos">
+            <h2>Brinquedos em destaque</h2>
+            <hr/>
+            <div class="cards">
+                <div class="paw-patrol">
+                    <a href="#">
+                        <img src="./paw-patrol.jpg" alt="brinquedo da patrulha canina"/>
+                        <h3>Patrulha Canina</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </a>
+                    <button type="button">Adicionar ao carrinho</button>
+                </div>
+                <div class="escrever">
+                    <a href="#">
+                        <img src="/escrever.jpg" alt="quadro para escrever"/>
+                        <h3>Aprendendo</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </a>
+                    <button type="button">Adicionar ao carrinho</button>
+                </div>
+                <div class="Mini-cozinha">
+                    <a href="#">
+                        <img src="/cozinha.jpg" alt="mini cozinha rosa"/>
+                        <h3>Mini-cozinha</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </a>
+                    <button type="button">Adicionar ao carrinho</button>
+                </div>
+                <div class="pista-corrida">
+                    <a href="#">
+                        <img src="/pista-de-corrida.jpg" alt="pista de carrinho"/>
+                        <h3>Pista de Corrida</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </a>
+                    <button type="button">Adicionar ao carrinho</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy;JacPlaytoys - 2024</p>
+        <ul class="footer-link">
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Termo de Servicos</a></li>
+            <li><a href="#">Contatos</a></li>
+        </ul>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('.menu-hamburguer').click(function() {
+                $('.menu').animate({width: 'toggle'});
+            })
+        })
+    </script>
+</body>
+</html>
